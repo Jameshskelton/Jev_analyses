@@ -1,0 +1,80 @@
+{
+  "n_human": 500,
+  "intra_annotator": {
+    "n": 50,
+    "agreement": 0.98,
+    "kappa": 0.9579831932773109,
+    "confusion": {
+      "hit_hit": 19,
+      "hit_miss": 0,
+      "miss_hit": 1,
+      "miss_miss": 30
+    }
+  },
+  "human_vs_judge": {
+    "n": 500,
+    "agreement": 0.75,
+    "kappa": 0.4745779810343668,
+    "confusion": {
+      "hit_hit": 105,
+      "hit_miss": 124,
+      "miss_hit": 1,
+      "miss_miss": 270
+    },
+    "by_category": {
+      "number_change": {
+        "n": 40,
+        "agreement": 1.0,
+        "kappa": 1.0
+      },
+      "paraphrase": {
+        "n": 253,
+        "agreement": 0.5849802371541502,
+        "kappa": 0.2723711961434166
+      },
+      "unrelated": {
+        "n": 63,
+        "agreement": 1.0,
+        "kappa": 1.0
+      },
+      "entity_swap": {
+        "n": 105,
+        "agreement": 1.0,
+        "kappa": 1.0
+      },
+      "same_answer": {
+        "n": 31,
+        "agreement": 0.3548387096774194,
+        "kappa": 0.03125000000000012
+      },
+      "near_miss_intent": {
+        "n": 8,
+        "agreement": 1.0,
+        "kappa": 1.0
+      }
+    },
+    "by_split": {
+      "dev": {
+        "n": 416,
+        "agreement": 0.7403846153846154,
+        "kappa": 0.4562354763749033
+      },
+      "test": {
+        "n": 84,
+        "agreement": 0.7976190476190477,
+        "kappa": 0.5683192261185007
+      }
+    }
+  },
+  "heuristic_vs_human": {
+    "n": 500,
+    "agreement": 0.886,
+    "kappa": 0.7745752523175246,
+    "confusion": {
+      "hit_hit": 228,
+      "hit_miss": 1,
+      "miss_hit": 56,
+      "miss_miss": 215
+    }
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "model": "typesafe-jev-1.13.0",
+  "url": "https://inference.do-ai.run/v1/systemone",
+  "threshold": 0.5,
+  "seed": 13,
+  "latency_ms": {
+    "p50": 363.1783340000001,
+    "p95": 602.8902920000005
+  },
+  "variants": {
+    "json_query_and_response": {
+      "n": 50,
+      "n_scored": 50,
+      "n_errors": 0,
+      "n_should_hit": 20,
+      "n_should_miss": 30,
+      "auc": 0.9308333333333333,
+      "mean_score_should_hit": 0.179,
+      "mean_score_should_miss": 0.016000000000000004,
+      "hit_rate": 0.1,
+      "false_hit_rate_a": 0.0,
+      "false_hit_rate_b": 0.0,
+      "precision": 1.0,
+      "accuracy": 0.64,
+      "best_f1_threshold": 0.03,
+      "best_f1": 0.8421052631578948,
+      "hit_rate_at_false_hit_budget": {
+        "1%": {
+          "threshold": 0.06,
+          "hit_rate": 0.55,
+          "false_hit_a": 0.0,
+          "false_hit_b": 0.0
+        },
+        "2%": {
+          "threshold": 0.06,
+          "hit_rate": 0.55,
+          "false_hit_a": 0.0,
+          "false_hit_b": 0.0
+        },
+        "5%": {
+          "threshold": 0.06,
+          "hit_rate": 0.55,
+          "false_hit_a": 0.0,
+          "false_hit_b": 0.0
+        }
+      },
+      "latency_ms_p50": 366.390542,
+      "latency_ms_p95": 451.93633299999993,
+      "cost_usd_total": 0.000859782,
+      "cost_per_1k_lookups": 0.01719564
+    },
+    "json_response_only": {
+      "n": 50,
+      "n_scored": 50,
+      "n_errors": 0,
+      "n_should_hit": 20,
+      "n_should_miss": 30,
+      "auc": 0.6875,
+      "mean_score_should_hit": 0.302,
+      "mean_score_should_miss": 0.18033333333333326,
+      "hit_rate": 0.25,
+      "false_hit_rate_a": 0.1,
+      "false_hit_rate_b": 0.375,
+      "precision": 0.625,
+      "accuracy": 0.64,
+      "best_f1_threshold": 0.03,
+      "best_f1": 0.6909090909090908,
+      "hit_rate_at_false_hit_budget": {
+        "1%": {
+          "threshold": 0.71,
+          "hit_rate": 0.25,
+          "false_hit_a": 0.0,
+          "false_hit_b": 0.0
+        },
+        "2%": {
+          "threshold": 0.71,
+          "hit_rate": 0.25,
+          "false_hit_a": 0.0,
+          "false_hit_b": 0.0
+        },
+        "5%": {
+          "threshold": 0.71,
+          "hit_rate": 0.25,
+          "false_hit_a": 0.0,
+          "false_hit_b": 0.0
+        }
+      },
+      "latency_ms_p50": 360.7036250000002,
+      "latency_ms_p95": 602.8902920000005,
+      "cost_usd_total": 0.0008211000000000003,
+      "cost_per_1k_lookups": 0.016422000000000006
+    },
+    "plain_string": {
+      "n": 50,
+      "n_scored": 50,
+      "n_errors": 0,
+      "n_should_hit": 20,
+      "n_should_miss": 30,
+      "auc": 0.885,
+      "mean_score_should_hit": 0.151,
+      "mean_score_should_miss": 0.016333333333333335,
+      "hit_rate": 0.05,
+      "false_hit_rate_a": 0.0,
+      "false_hit_rate_b": 0.0,
+      "precision": 1.0,
+      "accuracy": 0.62,
+      "best_f1_threshold": 0.03,
+      "best_f1": 0.7894736842105262,
+      "hit_rate_at_false_hit_budget": {
+        "1%": {
+          "threshold": 0.05,
+          "hit_rate": 0.45,
+          "false_hit_a": 0.0,
+          "false_hit_b": 0.0
+        },
+        "2%": {
+          "threshold": 0.05,
+          "hit_rate": 0.45,
+          "false_hit_a": 0.0,
+          "false_hit_b": 0.0
+        },
+        "5%": {
+          "threshold": 0.05,
+          "hit_rate": 0.45,
+          "false_hit_a": 0.0,
+          "false_hit_b": 0.0
+        }
+      },
+      "latency_ms_p50": 364.0136250000001,
+      "latency_ms_p95": 507.47545800000006,
+      "cost_usd_total": 0.0008366820000000003,
+      "cost_per_1k_lookups": 0.016733640000000004
+    }
+  }
+}

@@ -1,0 +1,299 @@
+{
+  "model": "typesafe-jev-1.13.0",
+  "url": "https://inference.do-ai.run/v1/systemone",
+  "threshold": 0.5,
+  "seed": 13,
+  "latency_ms": {
+    "p50": 416.50229100000047,
+    "p95": 534.3514590000069
+  },
+  "variants": {
+    "json_query_and_response": {
+      "n": 500,
+      "n_scored": 500,
+      "n_errors": 0,
+      "n_should_hit": 125,
+      "n_should_miss": 375,
+      "auc": 0.8933973333333334,
+      "mean_score_should_hit": 0.3443200000000001,
+      "mean_score_should_miss": 0.051493333333333245,
+      "hit_rate": 0.272,
+      "false_hit_rate_a": 0.008,
+      "false_hit_rate_b": 0.08108108108108109,
+      "precision": 0.9189189189189189,
+      "accuracy": 0.812,
+      "best_f1_threshold": 0.13,
+      "best_f1": 0.6778242677824269,
+      "hit_rate_at_false_hit_budget": {
+        "1%": {
+          "threshold": 0.86,
+          "hit_rate": 0.08,
+          "false_hit_a": 0.0,
+          "false_hit_b": 0.0
+        },
+        "2%": {
+          "threshold": 0.86,
+          "hit_rate": 0.08,
+          "false_hit_a": 0.0,
+          "false_hit_b": 0.0
+        },
+        "5%": {
+          "threshold": 0.67,
+          "hit_rate": 0.184,
+          "false_hit_a": 0.0026666666666666666,
+          "false_hit_b": 0.041666666666666664
+        }
+      },
+      "latency_ms_p50": 415.62166699999636,
+      "latency_ms_p95": 530.9247080000006,
+      "cost_usd_total": 0.008696141999999999,
+      "cost_per_1k_lookups": 0.017392283999999997
+    },
+    "json_response_only": {
+      "n": 500,
+      "n_scored": 500,
+      "n_errors": 0,
+      "n_should_hit": 125,
+      "n_should_miss": 375,
+      "auc": 0.765696,
+      "mean_score_should_hit": 0.3233599999999999,
+      "mean_score_should_miss": 0.12920000000000004,
+      "hit_rate": 0.264,
+      "false_hit_rate_a": 0.07733333333333334,
+      "false_hit_rate_b": 0.46774193548387094,
+      "precision": 0.532258064516129,
+      "accuracy": 0.758,
+      "best_f1_threshold": 0.04,
+      "best_f1": 0.5377777777777778,
+      "hit_rate_at_false_hit_budget": {
+        "1%": {
+          "threshold": 0.89,
+          "hit_rate": 0.104,
+          "false_hit_a": 0.0,
+          "false_hit_b": 0.0
+        },
+        "2%": {
+          "threshold": 0.89,
+          "hit_rate": 0.104,
+          "false_hit_a": 0.0,
+          "false_hit_b": 0.0
+        },
+        "5%": {
+          "threshold": 0.89,
+          "hit_rate": 0.104,
+          "false_hit_a": 0.0,
+          "false_hit_b": 0.0
+        }
+      },
+      "latency_ms_p50": 420.00279200000534,
+      "latency_ms_p95": 535.1080000000011,
+      "cost_usd_total": 0.00832440000000002,
+      "cost_per_1k_lookups": 0.01664880000000004
+    },
+    "plain_string": {
+      "n": 500,
+      "n_scored": 500,
+      "n_errors": 0,
+      "n_should_hit": 125,
+      "n_should_miss": 375,
+      "auc": 0.877344,
+      "mean_score_should_hit": 0.29783999999999994,
+      "mean_score_should_miss": 0.04738666666666659,
+      "hit_rate": 0.248,
+      "false_hit_rate_a": 0.008,
+      "false_hit_rate_b": 0.08823529411764706,
+      "precision": 0.9117647058823529,
+      "accuracy": 0.806,
+      "best_f1_threshold": 0.05,
+      "best_f1": 0.6813880126182966,
+      "hit_rate_at_false_hit_budget": {
+        "1%": {
+          "threshold": 0.8,
+          "hit_rate": 0.088,
+          "false_hit_a": 0.0,
+          "false_hit_b": 0.0
+        },
+        "2%": {
+          "threshold": 0.8,
+          "hit_rate": 0.088,
+          "false_hit_a": 0.0,
+          "false_hit_b": 0.0
+        },
+        "5%": {
+          "threshold": 0.8,
+          "hit_rate": 0.088,
+          "false_hit_a": 0.0,
+          "false_hit_b": 0.0
+        }
+      },
+      "latency_ms_p50": 414.6052920000045,
+      "latency_ms_p95": 535.7960830000011,
+      "cost_usd_total": 0.008465141999999995,
+      "cost_per_1k_lookups": 0.01693028399999999
+    },
+    "cosine_tfidf_query_to_query": {
+      "n": 500,
+      "n_scored": 500,
+      "n_errors": 0,
+      "n_should_hit": 125,
+      "n_should_miss": 375,
+      "auc": 0.5285333333333333,
+      "mean_score_should_hit": 0.28188720111339716,
+      "mean_score_should_miss": 0.26417787261690867,
+      "hit_rate": 0.128,
+      "false_hit_rate_a": 0.17066666666666666,
+      "false_hit_rate_b": 0.8,
+      "precision": 0.19999999999999996,
+      "accuracy": 0.654,
+      "best_f1_threshold": 0.03459705030650833,
+      "best_f1": 0.424812030075188,
+      "hit_rate_at_false_hit_budget": {
+        "1%": {
+          "threshold": 0.8301550612525367,
+          "hit_rate": 0.024,
+          "false_hit_a": 0.0,
+          "false_hit_b": 0.0
+        },
+        "2%": {
+          "threshold": 0.8301550612525367,
+          "hit_rate": 0.024,
+          "false_hit_a": 0.0,
+          "false_hit_b": 0.0
+        },
+        "5%": {
+          "threshold": 0.8301550612525367,
+          "hit_rate": 0.024,
+          "false_hit_a": 0.0,
+          "false_hit_b": 0.0
+        }
+      },
+      "latency_ms_p50": 0.006950832000000018,
+      "latency_ms_p95": 0.006950832000000018,
+      "cost_usd_total": 0.0,
+      "cost_per_1k_lookups": 0.0
+    },
+    "cosine_tfidf_query_to_response": {
+      "n": 500,
+      "n_scored": 500,
+      "n_errors": 0,
+      "n_should_hit": 125,
+      "n_should_miss": 375,
+      "auc": 0.6452906666666667,
+      "mean_score_should_hit": 0.11216732197609415,
+      "mean_score_should_miss": 0.05724811893304194,
+      "hit_rate": 0.0,
+      "false_hit_rate_a": 0.0,
+      "false_hit_rate_b": null,
+      "precision": null,
+      "accuracy": 0.75,
+      "best_f1_threshold": 0.08817335846339996,
+      "best_f1": 0.4489795918367347,
+      "hit_rate_at_false_hit_budget": {
+        "1%": {
+          "threshold": 0.3537612020495785,
+          "hit_rate": 0.04,
+          "false_hit_a": 0.0,
+          "false_hit_b": 0.0
+        },
+        "2%": {
+          "threshold": 0.3537612020495785,
+          "hit_rate": 0.04,
+          "false_hit_a": 0.0,
+          "false_hit_b": 0.0
+        },
+        "5%": {
+          "threshold": 0.3537612020495785,
+          "hit_rate": 0.04,
+          "false_hit_a": 0.0,
+          "false_hit_b": 0.0
+        }
+      },
+      "latency_ms_p50": 0.017476999999999965,
+      "latency_ms_p95": 0.017476999999999965,
+      "cost_usd_total": 0.0,
+      "cost_per_1k_lookups": 0.0
+    },
+    "cosine_do_gte-large-en-v1.5_query_to_query": {
+      "n": 500,
+      "n_scored": 500,
+      "n_errors": 0,
+      "n_should_hit": 125,
+      "n_should_miss": 375,
+      "auc": 0.807168,
+      "mean_score_should_hit": 0.7669092281065626,
+      "mean_score_should_miss": 0.61165021629852,
+      "hit_rate": 0.984,
+      "false_hit_rate_a": 0.7733333333333333,
+      "false_hit_rate_b": 0.7021791767554479,
+      "precision": 0.29782082324455206,
+      "accuracy": 0.416,
+      "best_f1_threshold": 0.7021945643277453,
+      "best_f1": 0.5894039735099338,
+      "hit_rate_at_false_hit_budget": {
+        "1%": {
+          "threshold": 0.9411555797815325,
+          "hit_rate": 0.064,
+          "false_hit_a": 0.0,
+          "false_hit_b": 0.0
+        },
+        "2%": {
+          "threshold": 0.9411555797815325,
+          "hit_rate": 0.064,
+          "false_hit_a": 0.0,
+          "false_hit_b": 0.0
+        },
+        "5%": {
+          "threshold": 0.9411555797815325,
+          "hit_rate": 0.064,
+          "false_hit_a": 0.0,
+          "false_hit_b": 0.0
+        }
+      },
+      "latency_ms_p50": 43.85206325,
+      "latency_ms_p95": 43.85206325,
+      "cost_usd_total": 0.0010376100000000093,
+      "cost_per_1k_lookups": 0.0020752200000000187
+    },
+    "cosine_do_gte-large-en-v1.5_query_to_response": {
+      "n": 500,
+      "n_scored": 500,
+      "n_errors": 0,
+      "n_should_hit": 125,
+      "n_should_miss": 375,
+      "auc": 0.8080426666666667,
+      "mean_score_should_hit": 0.6503266676838085,
+      "mean_score_should_miss": 0.5445124425750149,
+      "hit_rate": 0.952,
+      "false_hit_rate_a": 0.6533333333333333,
+      "false_hit_rate_b": 0.6730769230769231,
+      "precision": 0.32692307692307687,
+      "accuracy": 0.498,
+      "best_f1_threshold": 0.6285896684871412,
+      "best_f1": 0.6083916083916084,
+      "hit_rate_at_false_hit_budget": {
+        "1%": {
+          "threshold": 0.7732675120473288,
+          "hit_rate": 0.04,
+          "false_hit_a": 0.0,
+          "false_hit_b": 0.0
+        },
+        "2%": {
+          "threshold": 0.7732675120473288,
+          "hit_rate": 0.04,
+          "false_hit_a": 0.0,
+          "false_hit_b": 0.0
+        },
+        "5%": {
+          "threshold": 0.7732675120473288,
+          "hit_rate": 0.04,
+          "false_hit_a": 0.0,
+          "false_hit_b": 0.0
+        }
+      },
+      "latency_ms_p50": 49.953173166,
+      "latency_ms_p95": 49.953173166,
+      "cost_usd_total": 0.0026076599999999873,
+      "cost_per_1k_lookups": 0.005215319999999975
+    }
+  }
+}

@@ -1,0 +1,3 @@
+requests>=2.31,<3
+datasets>=2.19
+# optional: sentence-transformers (for --baselines st)
